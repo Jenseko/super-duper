@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: gilda;
+    src: url('../font/GildaDisplay-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'raven';
+    src: url('../font/MavenPro-Regular.ttf');
+}
+
+/*================================
+<<<<<<<<<<<HEADER>>>>>>>>>>>>>>>>>
+================================*/
+
+header{
+    background-color: #3c3c3c;
+    background-size: cover;
+    width: 800px;
+    padding: 0 20px 40px 20px;
+
+}
+
+header h2{
+    color: #cccccc;
+    font-family: gilda;
+    padding-left: 30px;
+    display: block;
+    width: 30px;
+}
+
+header article div h1{
+    color: #ffffff;
+    font-family: gilda;
+    font-size: 36px;
+    padding-top: 1px;
+}
+
+header article div p{
+    color: #ffffff;
+    font-family: raven;
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+header article div{    
+    border-radius: 2px;
+    background-image: linear-gradient(45deg, rgba(133, 7, 225, 1) 0%, rgba(25, 72, 148, 1) 45%, rgba(61, 200, 213, 1) 100%);
+    width: 150px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+header article div:hover {
+    background-image: linear-gradient(45deg, rgba(61, 200, 213, 1) 0%, rgba(25, 72, 148, 1) 45%, rgba(133, 7, 225, 1) 100%);
+}
+
+
+header nav{
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+header nav:hover{
+    color: #646464;
+}
+
+header nav a{
+    font-family: raven;
+    display: block;
+    color: #cccccc;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+/*================================
+<<<<<<<<<<<<MAIN>>>>>>>>>>>>>>>>>>
+=================================*/
+
+main article{
+    background-image: url('../img/5c898cd67456ffcba141a5ff_PROJECTS.svg');
+    background-repeat: no-repeat;
+    background-position: 150px 130px;
+    background-size: 600px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+
+main article h1{
+    margin-left: 50px;
+    margin-top: 110px;
+    font-size: 40px;
+    font-family: gilda;
+}
+
+main article p{
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    display: block;
+    text-align: left;
+    font-family: raven;
+    font-size: 14px;
+}
+
+main article .main_text_small{
+    margin-top: 1px;
+}
+
+
+
+/*================================
+<<<<<<<<<<<SECTION>>>>>>>>>>>>>>>>
+=================================*/
+
+section div img{
+    background-position: center;
+    background-size: contain;
+    width: 600px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+    border-radius: 10px;
+    margin-bottom:10px;
+}
+
+section div h1{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+section div h4{
+    margin-left: 200px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+section:nth-of-type(3) div{
+    margin-bottom: 100px;
+}
+
+
+
+
